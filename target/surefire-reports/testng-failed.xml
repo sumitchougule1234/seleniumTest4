@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="none">
+  <parameter name="firstname" value="Sumit"/>
+  <parameter name="phnno" value="1234567890"/>
+  <parameter name="lastname" value="Chougule"/>
+  <test name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="com.etlehiveTest.googleHomePage.GoogleTest">
+        <methods>
+          <include name="f2" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.etlehiveTest.googleHomePage.GoogleTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

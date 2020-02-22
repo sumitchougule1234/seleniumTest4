@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<parameter name="firstname" value="Sumit"></parameter>
+<parameter name="lastname" value="Chougule"></parameter>
+<parameter name="phnno" value="1234567890"></parameter>
+
+  <test thread-count="5" parallel="methods" name="Test">
+    <classes>
+<!--      <class name="com.etlehiveTest.googleHomePage.DropDown"/>
+      <class name="com.etlehiveTest.googleHomePage.GoogleTest1"/>
+      <class name="com.etlehiveTest.googleHomePage.AlertDemo"/> --> 
+      
+      <class name="com.etlehiveTest.googleHomePage.GoogleTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

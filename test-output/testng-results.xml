@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[opening url]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16685" started-at="2020-02-09T04:31:39Z" finished-at="2020-02-09T04:31:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16685" started-at="2020-02-09T04:31:39Z" finished-at="2020-02-09T04:31:56Z">
+      <class name="com.etlehiveTest.googleHomePage.GoogleTest1">
+        <test-method status="PASS" signature="f1(java.lang.String)[pri:0, instance:com.etlehiveTest.googleHomePage.GoogleTest1@224edc67]" name="f1" duration-ms="16650" started-at="2020-02-09T10:01:39Z" data-provider="abc" finished-at="2020-02-09T10:01:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://phptravels.com/demo/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[opening url]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+      </class> <!-- com.etlehiveTest.googleHomePage.GoogleTest1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
